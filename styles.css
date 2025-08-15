@@ -1,12 +1,22 @@
+/* Full-screen fixed background */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('PageBackground.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1; /* Behind all content */
+}
+
+/* Body now only handles content */
 body {
   margin: 0;
   font-family: "Segoe UI", Arial, sans-serif;
-  background-image: url('PageBackground.jpg');
-  background-size: cover;         /* Scale to fill screen */
-  background-position: fixed;    /* Keep centered */
-  background-attachment: fixed;   /* Make it stay in place */
-  background-repeat: no-repeat;
-  color: white;                    /* Helps text show over image */
+  color: white;
 }
 
 a {
@@ -118,6 +128,7 @@ footer {
   100% { opacity: 1; transform: translateY(0); }
 
 }
+
 
 
 
