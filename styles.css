@@ -21,10 +21,34 @@ h1, h2, h3 {
 }
 
 .hero {
-  background: linear-gradient(to right, #001f3f, #004466);
+  background-color: #0a1f44; /* Dark blue */
   color: white;
-  padding: 4rem 2rem;
-  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero-content {
+  display: flex;             /* Aligns items side by side */
+  align-items: center;       /* Vertically centers text next to image */
+  gap: 20px;                 /* Space between image and text */
+  flex-wrap: wrap;           /* Makes it responsive on small screens */
+}
+
+.hero-image {
+  width: 120px;              /* Smaller, consistent size */
+  height: 120px;
+  border-radius: 50%;        /* Makes it circular */
+  object-fit: cover;         /* Keeps image proportions */
+}
+
+.hero-text h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.hero-text p {
+  margin: 5px 0 0 0;
+  font-size: 1.2rem;
+  color: #00b3b3;            /* Teal accent for subtitle */
 }
 
 .hero nav a {
@@ -80,4 +104,5 @@ footer {
 @keyframes fadeIn {
   0% { opacity: 0; transform: translateY(10px); }
   100% { opacity: 1; transform: translateY(0); }
+
 }
