@@ -3,7 +3,7 @@ body {
   font-family: "Segoe UI", Arial, sans-serif;
   background-image: url('PageBackground.jpg');
   background-size: cover;         /* Scale to fill screen */
-  background-position: center;    /* Keep centered */
+  background-position: fixed;    /* Keep centered */
   background-attachment: fixed;   /* Make it stay in place */
   background-repeat: no-repeat;
   color: white;                    /* Helps text show over image */
@@ -118,6 +118,7 @@ footer {
   100% { opacity: 1; transform: translateY(0); }
 
 }
+
 
 
 
