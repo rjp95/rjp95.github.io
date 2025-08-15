@@ -73,6 +73,13 @@ h2 {
   padding-bottom: 0.5rem;
 }
 
+.aboutme-card {
+  background: #111;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -111,6 +118,7 @@ footer {
   100% { opacity: 1; transform: translateY(0); }
 
 }
+
 
 
 
