@@ -23,7 +23,6 @@ h1, h2, h3 {
 }
 
 .hero {
-  background-color: #0a1f44; /* Dark blue */
   color: white;
   padding: 50px 20px;
   display: flex;
@@ -112,6 +111,7 @@ footer {
   100% { opacity: 1; transform: translateY(0); }
 
 }
+
 
 
 
