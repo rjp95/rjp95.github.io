@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
   background-image: url('PageBackground.jpg');
   background-size: cover;         /* Scale to fill screen */
   background-position: center;    /* Keep centered */
@@ -20,6 +20,7 @@ a:hover {
 
 h1, h2, h3 {
   color: white;
+  font-family: "Garamond", serif;
 }
 
 .hero {
@@ -118,6 +119,7 @@ footer {
   100% { opacity: 1; transform: translateY(0); }
 
 }
+
 
 
 
