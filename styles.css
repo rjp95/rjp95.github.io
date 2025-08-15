@@ -24,15 +24,17 @@ h1, h2, h3 {
   background-color: #0a1f44; /* Dark blue */
   color: white;
   padding: 50px 20px;
-  text-align: center;        /* Centers text if it wraps */
+  display: flex;
+  justify-content: center;   /* Centers content horizontally */
 }
 
 .hero-content {
   display: flex;
-  align-items: center;       /* Vertically centers text next to image */
-  justify-content: center;   /* Centers the whole row horizontally */
+  align-items: center;       /* Vertically center image + text */
   gap: 20px;
-  flex-wrap: wrap;           /* Stacks on small screens */
+  max-width: 900px;          /* Prevents hero from stretching too wide */
+  width: 100%;               /* Responsive */
+  flex-wrap: wrap;           /* Stacks on smaller screens */
 }
 
 .hero-image {
@@ -108,4 +110,5 @@ footer {
   100% { opacity: 1; transform: translateY(0); }
 
 }
+
 
