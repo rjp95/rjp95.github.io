@@ -1,0 +1,83 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #f0f0f0;
+  background-color: #0a0a0a;
+}
+
+a {
+  color: #00bfa6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  color: white;
+}
+
+.hero {
+  background: linear-gradient(to right, #001f3f, #004466);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero nav a {
+  color: white;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  border-bottom: 2px solid #00bfa6;
+  padding-bottom: 0.5rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.project-card {
+  background: #111;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background: #001f3f;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn ease 1.2s forwards;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
